@@ -120,4 +120,11 @@ for row in range(L):
 
 ################################################
 
-print(results - results.transpose())
+"""
+Compute, plot, and save the dominance order matrix
+"""
+dominance_order = results - results.transpose()
+print(dominance_order)
+
+with open('dominance_order.npy', 'wb') as f:
+    np.save(f, dominance_order)

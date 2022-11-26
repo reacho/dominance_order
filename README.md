@@ -3,7 +3,10 @@
 Write all your values in 
 data_values.txt
 
-Then run main.py
+Then run in command line
+```
+python main.py > output.txt
+```
 
 How to interpret the result - Example:
 ```
